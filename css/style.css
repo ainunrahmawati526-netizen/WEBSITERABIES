@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #087f70;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+
+nav {
+    background-color: #065f56;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #b8f2e6;
+}
+
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #087f70;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+section ul {
+    padding-left: 25px;
+}
+
+button,
+section a {
+    cursor: pointer;
+}
+
+section a {
+    color: #087f70;
+}
+
+button {
+    background-color: #087f70;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+
+footer {
+    background-color: #065f56;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+
+#konsultasi form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+}
+
+#konsultasi label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#konsultasi input,
+#konsultasi textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#konsultasi textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#konsultasi input:focus,
+#konsultasi textarea:focus {
+    outline: none;
+    border-color: #087f70;
+}
+
+#konsultasi button {
+    width: fit-content;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+#konsultasi button:hover {
+    background-color: #065f56;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
